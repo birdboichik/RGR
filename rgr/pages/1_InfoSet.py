@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-data2= pd.read_csv("D:\RGR\card_transdata_upd.csv")
+data2= pd.read_csv("card_transdata_upd.csv")
 df2 = pd.DataFrame(data2)
 
 st.title('Информация о датасетe')
