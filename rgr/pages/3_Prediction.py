@@ -11,13 +11,13 @@ import io
 import sklearn
 
 sklearn.__version__
-modelsvm = pickle.load(open('D:\RGR\models\kekshrek.pkl', 'rb'))
-modelbagging = pickle.load(open('D:\RGR\models\\bag.pkl', 'rb'))
-modelkmeans = pickle.load(open('D:\RGR\models\kmean.pkl', 'rb'))
-modelkgradient = pickle.load(open('D:\RGR\models\GradientBoost.pkl', 'rb'))
-modelstacking = pickle.load(open('D:\RGR\models\Stack.pkl', 'rb'))
-modelneurall = load_model('D:/RGR/models/Neurall.h5')
-data = pd.read_csv('D:\RGR\card_transdata_upd.csv')
+modelsvm = pickle.load(open('models\kekshrek.pkl', 'rb'))
+modelbagging = pickle.load(open('models\\bag.pkl', 'rb'))
+modelkmeans = pickle.load(open('models\kmean.pkl', 'rb'))
+modelkgradient = pickle.load(open('\models\GradientBoost.pkl', 'rb'))
+modelstacking = pickle.load(open('models\Stack.pkl', 'rb'))
+modelneurall = load_model('models/Neurall.h5')
+data = pd.read_csv('card_transdata_upd.csv')
 X = data.drop('fraud', axis=1)
 y = data['fraud']
 

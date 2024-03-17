@@ -17,5 +17,5 @@ st.subheader('Группа')
 st.markdown('МО-221')
 
 st.subheader('Фото')
-st.image('photo.jpg')
+st.image('rgr/photo.jpg')
 
