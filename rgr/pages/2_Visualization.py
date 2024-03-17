@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-data= pd.read_csv("D:\RGR\card_transdata_upd.csv")
+data= pd.read_csv("rgr/photo.jpg")
 
 st.header("Гистограммы")
 columns = ['distance_from_home','ratio_to_median_purchase_price','distance_from_last_transaction']
