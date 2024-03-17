@@ -10,8 +10,7 @@ from keras.models import load_model
 import io
 import sklearn
 
-sklearn.__version__
-modelsvm = pickle.load(open('models\kekshrek.pkl', 'rb'))
+modelsvm = pickle.load(open('\models\kekshrek.pkl', 'rb'))
 modelbagging = pickle.load(open('models\\bag.pkl', 'rb'))
 modelkmeans = pickle.load(open('models\kmean.pkl', 'rb'))
 modelkgradient = pickle.load(open('\models\GradientBoost.pkl', 'rb'))
